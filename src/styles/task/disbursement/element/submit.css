@@ -1,0 +1,22 @@
+.disbursement-wrap .divider{
+  height: 2px;
+  width: 100%;
+  background: #6b7280;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.disbursement-wrap .submit-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.disbursement-wrap .submit-box button{
+  padding: 0 20px;
+  cursor: pointer;
+  height: 26px;
+  width: 120px;
+}
+.disbursement-wrap .submit-box button:nth-of-type(1){
+  margin-right: 20px;
+}

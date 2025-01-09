@@ -1,0 +1,41 @@
+.alldoc-wrap .filter-box{
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}
+.alldoc-wrap .filter-box .filter-item{
+  flex: 1;
+  display: flex;
+}
+
+.alldoc-wrap .filter-box .filter-item .item-name-box,
+.alldoc-wrap .filter-box .filter-item .item-select-box{
+  border: 1px solid #000000;
+}
+
+.alldoc-wrap .filter-box .filter-item .item-name-box,
+.alldoc-wrap .filter-box .filter-item .item-select-box{
+  width: 55%;
+  text-align: center;
+  background: #ffffff;
+}
+.alldoc-wrap .filter-box .filter-item .item-name-box{
+  width: 45%;
+}
+.alldoc-wrap .filter-box .filter-item .item-select-box select{
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  position: relative;
+  border: none;
+  text-align: center;
+}
+.alldoc-wrap .filter-box .filter-btn{
+  display: flex;
+  justify-content: end;
+  width: 120px;
+}
+.alldoc-wrap .filter-box .filter-btn button{
+  padding: 0 20px;
+  cursor: pointer;
+}

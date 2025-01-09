@@ -1,0 +1,19 @@
+.layout-root{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    .side-nav-wrap{
+        width: 18%;
+        position: relative;
+        box-shadow: 0 1px 5px #00000029;
+    }
+    .content-wrap{
+        flex: 1;
+        background: rgba(229, 231, 235, 0.3);
+        padding: 40px 30px;
+    }
+}
+body{
+    margin: 0;
+}

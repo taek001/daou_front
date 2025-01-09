@@ -1,0 +1,43 @@
+.side-nav-box li{
+  position: relative;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 30px;
+  color: rgb(75, 85, 99);
+  font-size: 13px;
+}
+.side-nav-box li svg{
+  margin-right: 10px;
+  font-size: 16px;
+}
+.side-nav-box .title{
+  padding-left: 30px;
+  display: flex;
+  height: 45px;
+  align-items: center;
+  font-weight: bold;
+  color: rgb(107, 114, 128);
+}
+.side-nav-box a{
+  text-decoration: none;
+  color: inherit;
+}
+.side-nav-box li.active:after{
+  background: #6366f1;
+}
+.side-nav-box li.active,
+.side-nav-box li:hover{
+  background: rgba(249, 250, 251, 1)
+}
+.side-nav-box li:hover{
+  font-weight: 500;
+}
+.side-nav-box li:after{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 0;
+}

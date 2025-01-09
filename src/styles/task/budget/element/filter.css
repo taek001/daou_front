@@ -1,0 +1,41 @@
+.budget-wrap .filter-box{
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}
+.budget-wrap .filter-box .filter-item,
+.budget-wrap .filter-box .filter-btn{
+  flex: 1;
+  display: flex;
+}
+
+.budget-wrap .filter-box .filter-item .item-name-box,
+.budget-wrap .filter-box .filter-item .item-select-box{
+  border: 1px solid #000000;
+}
+
+.budget-wrap .filter-box .filter-item .item-name-box,
+.budget-wrap .filter-box .filter-item .item-select-box{
+  width: 55%;
+  text-align: center;
+  background: #ffffff;
+}
+.budget-wrap .filter-box .filter-item .item-name-box{
+  width: 45%;
+}
+.budget-wrap .filter-box .filter-item .item-select-box select{
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  position: relative;
+  border: none;
+  text-align: center;
+}
+.budget-wrap .filter-box .filter-btn{
+  display: flex;
+  justify-content: end;
+}
+.budget-wrap .filter-box .filter-btn button{
+  padding: 0 20px;
+  cursor: pointer;
+}

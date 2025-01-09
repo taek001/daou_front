@@ -1,0 +1,26 @@
+.disbursement-wrap .divider{
+  height: 2px;
+  width: 100%;
+  background: #6b7280;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.disbursement-wrap .register-box{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.disbursement-wrap .button-box{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.disbursement-wrap .button-box button{
+  padding: 0 20px;
+  cursor: pointer;
+  height: 26px;
+  width: 100px;
+}
+.disbursement-wrap .button-box button:nth-of-type(1){
+  margin-right: 10px;
+}

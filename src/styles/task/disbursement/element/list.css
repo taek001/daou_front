@@ -1,0 +1,35 @@
+.disbursement-wrap .list-wrap{
+  width: 100%;
+  margin-top: 10px;
+}
+.disbursement-wrap .list-wrap table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.disbursement-wrap .list-wrap table th,
+.disbursement-wrap .list-wrap table td{
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+.disbursement-wrap .list-wrap table td select,
+.disbursement-wrap .list-wrap table td input{
+  width: 100%;
+  height: 100%;
+  padding-block: unset;
+  padding-inline: unset;
+  border: none;
+  outline: none;
+}
+.disbursement-wrap .list-wrap table td button{
+  padding: 0 20px;
+  height: 26px;
+}
+.disbursement-wrap .text-right{
+  text-align: right;
+}
+.disbursement-wrap .text-left{
+  text-align: left;
+}
+.disbursement-wrap .text-center{
+  text-align: center;
+}

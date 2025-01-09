@@ -1,0 +1,26 @@
+.alldoc-wrap .list-wrap{
+  width: 100%;
+  margin-top: 30px;
+}
+.alldoc-wrap .list-wrap table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.alldoc-wrap .list-wrap table th,
+.alldoc-wrap .list-wrap table td{
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+.alldoc-wrap .list-wrap table td button{
+  padding: 0 20px;
+  height: 26px;
+}
+.alldoc-wrap .text-right{
+  text-align: right;
+}
+.alldoc-wrap .text-left{
+  text-align: left;
+}
+.alldoc-wrap .text-center{
+  text-align: center;
+}

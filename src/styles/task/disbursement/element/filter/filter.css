@@ -1,0 +1,45 @@
+.disbursement-wrap .tutorial{
+  margin-top: 50px;
+  text-align: center;
+}
+.disbursement-wrap .filter-box{
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+}
+.disbursement-wrap .filter-box .filter-item,
+.disbursement-wrap .filter-box .filter-btn{
+  flex: 1;
+  display: flex;
+}
+
+.disbursement-wrap .filter-box .filter-item .item-name-box,
+.disbursement-wrap .filter-box .filter-item .item-select-box{
+  border: 1px solid #000000;
+}
+
+.disbursement-wrap .filter-box .filter-item .item-name-box,
+.disbursement-wrap .filter-box .filter-item .item-select-box{
+  width: 55%;
+  text-align: center;
+  background: #ffffff;
+}
+.disbursement-wrap .filter-box .filter-item .item-name-box{
+  width: 45%;
+}
+.disbursement-wrap .filter-box .filter-item .item-select-box select{
+  width: 100%;
+  height: 100%;
+  top: -3px;
+  position: relative;
+  border: none;
+  text-align: center;
+}
+.disbursement-wrap .filter-box .filter-btn{
+  display: flex;
+  justify-content: end;
+}
+.disbursement-wrap .filter-box .filter-btn button{
+  padding: 0 20px;
+  cursor: pointer;
+}

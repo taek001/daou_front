@@ -1,0 +1,33 @@
+.budget-wrap .list-wrap{
+  width: 100%;
+  margin-top: 30px;
+}
+.budget-wrap .list-wrap table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.budget-wrap .list-wrap table th,
+.budget-wrap .list-wrap table td{
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+.budget-wrap .list-wrap table td button{
+  padding: 0 20px;
+  height: 26px;
+}
+.budget-wrap .list-wrap table th:nth-last-child(1),
+.budget-wrap .list-wrap table td:nth-last-child(1){
+  border: none;
+  background: none;
+}
+.budget-wrap .text-right{
+  text-align: right;
+  padding-right: 5px;
+}
+.budget-wrap .text-left{
+  text-align: left;
+  padding-left: 5px;
+}
+.budget-wrap .text-center{
+  text-align: center;
+}

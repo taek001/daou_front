@@ -1,0 +1,26 @@
+.tempdir-wrap .list-wrap{
+  width: 100%;
+  margin-top: 30px;
+}
+.tempdir-wrap .list-wrap table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.tempdir-wrap .list-wrap table th,
+.tempdir-wrap .list-wrap table td{
+  border: 1px solid #000000;
+  background: #ffffff;
+}
+.tempdir-wrap .list-wrap table td button{
+  padding: 0 20px;
+  height: 26px;
+}
+.tempdir-wrap .text-right{
+  text-align: right;
+}
+.tempdir-wrap .text-left{
+  text-align: left;
+}
+.tempdir-wrap .text-center{
+  text-align: center;
+}
